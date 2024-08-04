@@ -1,0 +1,57 @@
+.subscription_container {
+  max-width: 1346px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  @media (max-width: 640px) {
+    padding: 0;
+  }
+}
+
+.subscription_card {
+  @media (max-width: 640px) {
+    padding: 40px 20px;
+  }
+}
+
+.subscription_header {
+  margin: 40px 0;
+  @media (max-width: 640px) {
+    margin: 32px 0px;
+  }
+}
+
+.subscription_header_title {
+  font-size: 36px;
+  @media (max-width: 640px) {
+    font-size: 28px;
+    line-height: 140%;
+  }
+}
+
+.pricing_section {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.pricing_list {
+  li {
+    position: relative;
+    margin-left: 32px;
+  }
+  li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -32px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('/assets/icons/check.svg');
+    background-repeat: no-repeat;
+  }
+}

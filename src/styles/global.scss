@@ -1,0 +1,105 @@
+@import "./shared/variables.scss";
+// @import '@nextui-org/react/dist/nextui.css';
+@import "./schedule-calendar.css";
+@import "./shared//editor.scss";
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+ol {
+  margin-left: 20px;
+}
+ol {
+  list-style-type: decimal;
+}
+ul {
+  list-style-type: disc;
+  list-style-type: none;
+  margin: 0;
+}
+textarea {
+  outline: none;
+}
+
+textarea:hover,
+textarea:focus,
+textarea:active {
+  background: #f9f9f9;
+  outline: none;
+}
+
+.container {
+  width: $container-width;
+  max-width: $max-width-container;
+  margin: 0 auto;
+  @media (max-width: $small-mobile) {
+    width: $container-width-mobile;
+  }
+}
+
+.container_big {
+  width: $container-width-big;
+  max-width: $max-width-container-big;
+  margin: 0 auto;
+  @media (max-width: $small-mobile) {
+    width: $container-width-mobile-big;
+  }
+}
+
+.container_1346 {
+  width: $container-width-1346;
+  max-width: $max-width-container-1346;
+  margin-left: auto;
+  margin-right: auto;
+  @media (max-width: $small-mobile) {
+    width: $container-width-mobile-1346;
+  }
+}
+
+.container_1872 {
+  width: $container-width-1872;
+  max-width: $max-width-container-1872;
+  margin-left: auto;
+  margin-right: auto;
+  @media (max-width: $small-mobile) {
+    width: $container-width-mobile-1872;
+  }
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.label {
+  color: #282034;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.flag-dropdown {
+  background-color: white !important ;
+  border: none !important;
+  border-right: none !important;
+  border-radius: 10px 0 0 10px !important;
+}
+.flag-dropdown.open .selected-flag {
+  border-radius: 10px 0 0 10px !important;
+}
+.react-tel-input .selected-flag {
+  border-radius: 10px 0 0 10px !important;
+}
+.icloud-button svg {
+  display: none;
+}

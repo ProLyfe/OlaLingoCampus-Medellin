@@ -1,0 +1,31 @@
+.menu_drawer {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  max-width: 430px;
+  background-color: #FFF;
+  bottom: 0;
+  z-index: 50;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+}
+
+.menu_drawer_open {
+  transform: translateX(0);
+}
+
+.overlay {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(17, 24, 39, 0.5);
+  z-index: 40;
+}
+
+.overlay_hidden {
+  display: none;
+}
+

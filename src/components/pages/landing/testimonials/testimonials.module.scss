@@ -1,0 +1,12 @@
+.prev_slide,
+.next_slide {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  border: 1px solid white;
+  background-color: white;
+}

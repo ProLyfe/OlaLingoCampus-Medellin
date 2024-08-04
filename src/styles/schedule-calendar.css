@@ -1,0 +1,215 @@
+.rbc-calendar {
+  border: 1px solid #e3e1db;
+  border-radius: 20px;
+  max-height: 700px !important;
+}
+.rbc-time-header.rbc-overflowing {
+  margin-right: 0 !important;
+}
+.rbc-time-view {
+  border: solid white !important;
+  border-radius: 20px !important;
+  max-height: 700px !important;
+}
+
+.rbc-toolbar {
+  border-radius: 20px 20px 0 0;
+  background: var(--Bg, #f7f5f1);
+  margin-bottom: 0 !important;
+  padding: 16px 24px !important;
+  justify-content: start !important;
+}
+
+.rbc-toolbar .rbc-toolbar-label {
+  flex-grow: 0 !important;
+  color: var(--H, #29261f);
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left !important;
+}
+
+.rbc-day-slot .rbc-events-container {
+  margin-right: 0 !important;
+}
+
+.rbc-btn-group {
+  position: relative;
+  order: 1;
+}
+.rbc-toolbar .rbc-btn-group:nth-child(3) {
+  padding: 6px;
+  margin-left: auto;
+  border-radius: 100px !important;
+  border: 1px solid var(--2additional, #e3e1db) !important;
+}
+@media (max-width: 1140px) {
+  .rbc-toolbar .rbc-btn-group:nth-child(3) {
+    margin-left: 0;
+  }
+}
+
+.rbc-toolbar .rbc-btn-group:nth-child(3) button {
+  border: none !important;
+}
+
+.rbc-toolbar .rbc-btn-group:nth-child(3) .rbc-active {
+  border-radius: 100px;
+  background: var(--H, #29261f) !important;
+  color: var(--optional, #fff);
+  font-size: 14px;
+  position: relative;
+  z-index: 111;
+}
+
+.rbc-btn-group > button:first-child:not(:last-child) {
+  border-radius: 100px !important;
+}
+.rbc-btn-group > button:last-child:not(:first-child) {
+  border-radius: 100px !important;
+}
+
+.rbc-toolbar .rbc-btn-group:nth-child(1) button {
+  padding: 0 !important;
+  width: 20px;
+  height: 20px;
+}
+.rbc-toolbar .rbc-btn-group:nth-child(1) button:nth-child(1) {
+  display: none;
+}
+
+.rbc-toolbar .rbc-btn-group:nth-child(1) button:nth-child(2),
+.rbc-toolbar .rbc-btn-group:nth-child(1) button:nth-child(3) {
+  background-color: #f7f5f1;
+  border-color: #f7f5f1;
+  font-size: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.rbc-toolbar .rbc-btn-group:nth-child(1) button:nth-child(2) {
+  /* background-image: url("../../public/assets/shared/chevrone-left.svg"); */
+}
+
+.rbc-toolbar .rbc-btn-group:nth-child(1) button:nth-child(3) {
+  /* background-image: url("../../public/assets/shared/chevrone-right.svg"); */
+}
+
+.rbc-toolbar button:hover,
+.rbc-toolbar button:focus,
+.rbc-toolbar button:active {
+  box-shadow: none !important;
+  background-color: #f7f5f1 !important;
+  border-color: #f7f5f1 !important;
+}
+
+.rbc-row-segment .rbc-event {
+  padding: 2px 8px 2px 8px !important;
+  border-radius: 8px !important;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.rbc-row-segment .rbc-show-more {
+  color: var(--main, #80745b) !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.rbc-event {
+  background: var(--main, #80745b) !important;
+  padding: 10px !important;
+  width: 100% !important;
+  left: 0% !important;
+  right: 0% !important;
+}
+.rbc-header {
+  border-bottom: none !important;
+}
+.rbc-day-slot .rbc-event {
+  border-color: #80745b !important;
+}
+
+.rbc-allday-cell {
+  display: none;
+}
+.rbc-header {
+  pointer-events: none;
+  padding: 15px !important;
+}
+.rbc-button-link {
+  color: #29261f !important;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.rbc-label {
+  color: #29261f !important;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.rbc-time-content {
+  max-height: 700px !important;
+  position: relative !important;
+  border-top: none !important;
+}
+.rbc-day-slot .rbc-event-label {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.rbc-time-content::-webkit-scrollbar {
+  width: 5px;
+  height: 15px;
+}
+
+.rbc-time-content::-webkit-scrollbar-thumb {
+  background: #e3e1db;
+  border-radius: 6px;
+}
+
+.rbc-time-content::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.rbc-timeslot-group {
+  min-height: 220px !important;
+  border-bottom: none !important;
+}
+
+.rbc-today {
+  background-color: white !important;
+}
+.rbc-day-slot .rbc-event-content {
+  font-size: 12px;
+  font-weight: 500;
+  overflow-y: hidden;
+  line-height: initial !important;
+}
+
+.rbc-event:focus {
+  outline: none !important;
+}
+
+.rbc-time-content > * + * > * {
+  border-left: 1px solid #e3e1db !important;
+}
+
+.rbc-day-slot .rbc-time-slot {
+  border-top: 1px solid #e3e1db !important;
+}
+.rbc-time-header.rbc-overflowing {
+  border-right: 5px solid white !important;
+}
+
+.rbc-header + .rbc-header {
+  border-left: 1px solid #e3e1db !important;
+}
+
+.rbc-header + .rbc-today {
+  background-color: #f7f5f1 !important;
+  font-weight: 600 !important;
+}

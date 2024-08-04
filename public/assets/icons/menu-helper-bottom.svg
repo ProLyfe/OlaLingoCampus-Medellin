@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="48" width="48">
+  <defs>
+    <mask id="hideCircle">
+      <rect x="0" y="0" width="48" height="48" fill="white" />
+      <circle cx="0" cy="48" r="48" fill="black" />
+    </mask>
+  </defs>
+  <rect x="0" y="0" width="48" height="48" fill="#F7F5FF" mask="url(#hideCircle)"/>
+</svg>

@@ -1,0 +1,52 @@
+@import "../../../styles/shared/variables.scss";
+.scroll_block {
+  @media (max-width: $tablet) {
+    overflow-x: scroll;
+    width: 600px;
+  }
+  @media (max-width: $mobile) {
+    width: 400px;
+  }
+  &::-webkit-scrollbar {
+    width: 2px;
+    height: 5px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #e3e1db;
+    border-radius: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
+.tabs_container {
+  border-radius: 999px;
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  background-color: #fff;
+  @media (max-width: $tablet) {
+    min-width: 900px;
+    overflow-x: scroll;
+  }
+}
+
+.tab_button {
+  font-size: 18px;
+  font-weight: 500;
+  color: #8979aa;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 999px;
+  max-width: 182px;
+  width: 100%;
+  @media (max-width: 640px) {
+    min-width: 140px;
+  }
+}
+
+.tab_button_active {
+  background-color: #f9c614;
+  color: #282034;
+}

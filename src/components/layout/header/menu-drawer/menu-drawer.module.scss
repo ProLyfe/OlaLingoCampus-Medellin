@@ -1,0 +1,26 @@
+.menu_drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFF;
+  bottom: 0;
+  z-index: 999;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+}
+
+.menu_drawer_open {
+  transform: translateX(0);
+}
+
+.menu_drawer_header {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #DBD3EB;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

@@ -1,0 +1,87 @@
+$input-border-size: 1px;
+$input-border-color: #8979AA;
+$input-border-radius: 999px;
+$input-border-padding-top-bottom: 10px;
+$input-border-padding-right-left: 16px;
+$input-background: #fff;
+$input-color: #676c7c;
+$input-font-size: 16px;
+$input-font-weight: 400;
+
+$input-active-background: #f9f9f9;
+
+$input-placeholder-color: rgba(103, 108, 124, 0.5);
+$input-placeholder-font-size: 16px;
+$input-placeholder-font-weight: 400;
+
+.input {
+  width: 100%;
+  position: relative;
+  border-radius: $input-border-radius;
+  cursor: pointer;
+  display: flex;
+  padding: $input-border-padding-top-bottom $input-border-padding-right-left;
+  align-items: center;
+  align-self: stretch;
+  background: $input-background;
+  font-size: $input-font-size;
+  font-style: normal;
+  font-weight: $input-font-weight;
+  line-height: normal;
+  color: $input-color;
+  &::placeholder {
+    color: $input-placeholder-color;
+    font-size: $input-placeholder-font-size;
+    font-weight: $input-placeholder-font-weight;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    background: $input-active-background;
+    outline: none;
+  }
+}
+.readonly {
+  border-radius: 10px;
+  border: 1px solid rgba(122, 139, 184, 0.2);
+  background: #f7f7fa;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: #f7f7fa;
+    outline: none;
+  }
+}
+.info_icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.notification_input {
+  z-index: 100;
+  top: -52px;
+  right: -60px;
+  position: absolute;
+  border-radius: 8px;
+  background: #fff;
+  padding: 4px 12px;
+  text-align: center;
+  max-width: 181px;
+  width: 100%;
+}
+.triangle {
+  z-index: 100;
+  top: 3px;
+  right: 14px;
+  transform: rotate(180deg);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+  position: absolute;
+}

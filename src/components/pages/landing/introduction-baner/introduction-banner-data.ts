@@ -5,6 +5,6 @@ export const bannerData = {
   },
   student: {
     title: 'Master New Languages with Ease',
-    content: 'Unlock your potential with our innovative language learning platform. Engage in interactive lessons, connect with native speakers, and track your progress—all in one place.'
+    content: 'Unlock your potential with our innovative language learning platform. Engage in interactive lessons, connect with native speakers from all around the world, and track your progress—all in one place.'
   }
 }

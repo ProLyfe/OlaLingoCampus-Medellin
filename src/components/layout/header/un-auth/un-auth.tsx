@@ -27,9 +27,9 @@ const UnAuthHeader = () => {
             <Link className={`${pathname === '/teacher' ? "text-main underline underline-offset-8" : "text-222"  } font-medium text-[18px]`} href={"/teacher"}>
               For teacher
             </Link>
-            <Link className=" text-222 font-medium text-[18px]" href={""}>
+            {/* <Link className=" text-222 font-medium text-[18px]" href={""}>
               Contacts
-            </Link>
+            </Link> */}
           </nav>
           <div className={styles.burger_menu}>
             <NavMenubutton setIsOpen={setOpenPersonMenu}>
@@ -50,9 +50,9 @@ const UnAuthHeader = () => {
         <Link className="py-2 text-222 font-medium text-[18px]" href={""}>
           For teacher
         </Link>
-        <Link className="py-2 text-222 font-medium text-[18px]" href={""}>
+        {/* <Link className="py-2 text-222 font-medium text-[18px]" href={""}>
           Contacts
-        </Link>
+        </Link> */}
       </MenuDrawer>
     </header>
   );

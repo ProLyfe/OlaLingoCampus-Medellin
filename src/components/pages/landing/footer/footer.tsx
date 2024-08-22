@@ -14,9 +14,9 @@ const Footer = () => {
             <Link className="text-optional  font-medium text-lg" href={"/teacher"}>
               For teacher
             </Link>
-            <Link className="text-optional  font-medium text-lg" href={""}>
+            {/* <Link className="text-optional  font-medium text-lg" href={""}>
               Contacts
-            </Link>
+            </Link> */}
           </nav>
         </div>
         <div className="my-8" style={{borderTop: '1px solid rgba(255, 255, 255, 0.20)'}}></div>

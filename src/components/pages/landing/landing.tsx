@@ -4,6 +4,7 @@ import KeyFeatures from './key-features/key-features'
 import Subscriptions from './subscriptions/subscriptions'
 import HowItWorks from './how-It-works/how-It-works'
 import LanguageJourney from './language-journey/language-journey'
+import LanguageJourneyBanner from './language-journey/language-journey-banner'
 import Testimonials from './testimonials/testimonials'
 import ContactUs from './contact-us/contact-us';
 import Footer from './footer/footer'
@@ -18,12 +19,16 @@ const LandingPage = ({ type = 'student' }: LandingPageProps) => {
   return (
     <LandingContextProvider type={type}>
       <IntroductionBanner />
-      <AboutUs />
+      <LanguageJourneyBanner />
+      {/* <AboutUs /> */}
+      {/* <div className="flex justify-center bg-red">
+        <p>Learn and practice with native speakers for an authentic language learning experience</p>
+      </div> */}
       <KeyFeatures />
-      <HowItWorks />
+      {/* { type === 'student' && <Subscriptions /> } */}
+      {/* <HowItWorks /> */}
       <LanguageJourney />
-      <Testimonials />
-      { type === 'student' && <Subscriptions /> }
+      {/* <Testimonials /> */}
       <ContactUs />
       <Footer />
     </LandingContextProvider>

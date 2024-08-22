@@ -19,15 +19,15 @@ const IntroductionBanner = () => {
               btnSize="l"
               bgColor="main"
             >
-              Join
+              Join us
             </CustomButton>
-            <CustomButton
+            {/* <CustomButton
               className="w-full mobile:w-[226px]"
               btnSize="l"
               bgColor="light"
             >
               Start Free Trial
-            </CustomButton>
+            </CustomButton> */}
           </div>
         </div>
         <div className='flex items-center'>

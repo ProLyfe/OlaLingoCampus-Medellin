@@ -17,21 +17,7 @@ const LanguageJourney = () => {
             { userData.content }
           </p>
           <div className="flex flex-col mobile:flex-row justify-center gap-6">
-            <CustomButton
-              className="w-full mobile:w-[226px]"
-              btnSize="l"
-              bgColor="main_white"
-            >
-              Join
-            </CustomButton>
-            <CustomButton
-              className="w-full mobile:w-[226px]"
-              btnSize="l"
-              bgColor="outline"
-            >
-              Start Free Trial
-            </CustomButton>
-          </div>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdUbp98bjGFi_-KZpt99bnJqJIg2thn6wfGhjV9-J0bKUkYWQ/viewform?embedded=true" width="640" height="797" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>          </div>
         </div>        
       </div>
     </section>

@@ -17,7 +17,7 @@ const LanguageJourney = () => {
             { userData.content }
           </p>
           <div className="flex flex-col mobile:flex-row justify-center gap-6">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdUbp98bjGFi_-KZpt99bnJqJIg2thn6wfGhjV9-J0bKUkYWQ/viewform?embedded=true" width="640" height="797" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>          </div>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdUbp98bjGFi_-KZpt99bnJqJIg2thn6wfGhjV9-J0bKUkYWQ/viewform?embedded=true" width="640" height="797">Chargement…</iframe>          </div>
         </div>        
       </div>
     </section>

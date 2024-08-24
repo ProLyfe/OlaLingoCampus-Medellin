@@ -1,10 +1,12 @@
 import CustomButton from "@/components/ui/button/button";
 import { languageJourneyData } from './language-journey-data';
 import { useLandingContext } from '../landing-context';
+import { usePathname } from 'next/navigation';
 
 const LanguageJourney = () => {
   const type = useLandingContext()
   const userData = languageJourneyData[type];
+  const pathname = usePathname();
 
   return (
     <section className="bg-main py-[40px] mobile:py-[120px]">
@@ -17,7 +19,10 @@ const LanguageJourney = () => {
             { userData.content }
           </p>
           <div className="flex flex-col mobile:flex-row justify-center gap-6">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdUbp98bjGFi_-KZpt99bnJqJIg2thn6wfGhjV9-J0bKUkYWQ/viewform?embedded=true" width="640" height="797">Chargement…</iframe>          </div>
+            {pathname === '/teacher' ? 
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdUbp98bjGFi_-KZpt99bnJqJIg2thn6wfGhjV9-J0bKUkYWQ/viewform?embedded=true" width="100%" height="797">Chargement…</iframe>         
+        : <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdoY58VNG5NNcxOZHm4sGRsGQ3GaXVgUQqQUcF0jFZTdeNlRQ/viewform?embedded=true" width="100%" height="797">Chargement…</iframe>
+        } </div>
         </div>        
       </div>
     </section>

@@ -18,7 +18,7 @@ const KeyFeatures = () => {
             <div key={item.title} className='flex flex-col items-center max-w-[364px]'>
               <Image
                 className="mb-[20px]"
-                src="/assets/landing/4885abcbd874145e13b3c640d0887a76.jpg"
+                src={item.imagesrc}
                 width={400}
                 height={400}
                 alt="check icon"

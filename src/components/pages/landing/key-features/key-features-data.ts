@@ -2,53 +2,65 @@ export const keyFeaturesData = {
   student: [
     {
       title: 'Online Classes with Our Own Live System',
-      content: 'Join our online classes with our own live system for an interactive and personalized experience, allowing you to participate in real-time and benefit from dynamic and engaging learning.'
+      content: 'Join our online classes with our own live system for an interactive and personalized experience, allowing you to participate in real-time and benefit from dynamic and engaging learning.',
+      imagesrc : "/assets/landing/4885abcbd874145e13b3c640d0887a76.jpg",
     },
     {
       title: 'Teacher Tracking and Follow-up System',
-      content: "Our Teacher Tracking and Follow-up System enables comprehensive monitoring and personalized support for student progress, ensuring effective and timely interventions."
+      content: "Our Teacher Tracking and Follow-up System enables comprehensive monitoring and personalized support for student progress, ensuring effective and timely interventions.",
+      imagesrc : "/assets/landing/4885abcbd874145e13b3c640d0887a76.jpg",
     },
     {
       title: 'E-Learning',
-      content: "E-Learning provides flexible, online access to educational resources and interactive courses, enabling you to learn at your own pace and convenience."
+      content: "E-Learning provides flexible, online access to educational resources and interactive courses, enabling you to learn at your own pace and convenience.",
+      imagesrc : "/assets/landing/snap1.png",
     },
     {
       title: 'Specialized Language Courses and Certifications',
-      content: "Enroll in our specialized language courses and certifications to master new languages with expert guidance and earn recognized credentials from the comfort of your home."
+      content: "Enroll in our specialized language courses and certifications to master new languages with expert guidance and earn recognized credentials from the comfort of your home.",
+      imagesrc : "/assets/landing/4885abcbd874145e13b3c640d0887a76.jpg",
     },
     {
       title: 'Join the event, Earn Credits!',
-      content: "Participate in the event and earn valuable credits towards your educational goals!"
+      content: "Participate in the event and earn valuable credits towards your educational goals!",
+      imagesrc : "/assets/landing/4885abcbd874145e13b3c640d0887a76.jpg",
     },
     {
       title: 'Multi-Device Access',
-      content: "Enjoy seamless learning with multi-device access, allowing you to study anytime, anywhere, on any device."
+      content: "Enjoy seamless learning with multi-device access, allowing you to study anytime, anywhere, on any device.",
+      imagesrc : "/assets/landing/4885abcbd874145e13b3c640d0887a76.jpg",
     },
   ],
   teacher: [
     {
-      title: "Interactive Lessons",
-      content: "Dive into dynamic lessons that adapt to your learning style, ensuring you stay motivated and engaged.",
+      title: 'Online Classes with Our Own Live System',
+      content: 'Join our online classes with our own live system for an interactive and personalized experience, allowing you to participate in real-time and benefit from dynamic and engaging learning.',
+      imagesrc : "/assets/landing/4885abcbd874145e13b3c640d0887a76.jpg",
     },
     {
-      title: "Global Student Reach",
-      content: "Dive into dynamic lessons that adapt to your learning style, ensuring you stay motivated and engaged.",
+      title: 'Teacher Tracking and Follow-up System',
+      content: "Our Teacher Tracking and Follow-up System enables comprehensive monitoring and personalized support for student progress, ensuring effective and timely interventions.",
+      imagesrc : "/assets/landing/4885abcbd874145e13b3c640d0887a76.jpg",
     },
     {
-      title: "Customizable Curriculum",
-      content: "Tailor your teaching plans to meet the specific needs and goals of each student, ensuring a personalized learning experience.",
+      title: 'E-Learning',
+      content: "E-Learning provides flexible, online access to educational resources and interactive courses, enabling you to learn at your own pace and convenience.",
+      imagesrc : "/assets/landing/snap1.png",
     },
     {
-      title: "Interactive Classroom",
-      content: "Utilize our virtual classroom features to conduct live sessions, manage student participation, and foster an interactive learning environment.",
+      title: 'Specialized Language Courses and Certifications',
+      content: "Enroll in our specialized language courses and certifications to master new languages with expert guidance and earn recognized credentials from the comfort of your home.",
+      imagesrc : "/assets/landing/4885abcbd874145e13b3c640d0887a76.jpg",
     },
     {
-      title: "Performance Analytics",
-      content: "Track student progress with detailed analytics, allowing you to adjust your teaching strategies for optimal results.",
+      title: 'Join the event, Earn Credits!',
+      content: "Participate in the event and earn valuable credits towards your educational goals!",
+      imagesrc : "/assets/landing/4885abcbd874145e13b3c640d0887a76.jpg",
     },
     {
-      title: "Professional Development",
-      content: "Enhance your skills with access to ongoing professional development opportunities, workshops, and a community of fellow educators.",
+      title: 'Multi-Device Access',
+      content: "Enjoy seamless learning with multi-device access, allowing you to study anytime, anywhere, on any device.",
+      imagesrc : "/assets/landing/4885abcbd874145e13b3c640d0887a76.jpg",
     },
   ],
 }

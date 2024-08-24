@@ -29,7 +29,7 @@ const LandingPage = ({ type = 'student' }: LandingPageProps) => {
       {/* <HowItWorks /> */}
       <LanguageJourney />
       {/* <Testimonials /> */}
-      <ContactUs />
+      {/* <ContactUs /> */}
       <Footer />
     </LandingContextProvider>
   )

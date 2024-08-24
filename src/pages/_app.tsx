@@ -9,8 +9,8 @@ export default function App({Component, pageProps}: AppProps) {
 	return (
 		<>
 			<Head>
-				<title>LMS</title>
-				<meta name="description" content="Welcome to LMS"/>
+				<title>OlaLingo</title>
+				<meta name="description" content="OlaLingo"/>
 			</Head>
 			<Component {...pageProps} />
 			<ToastContainer/>

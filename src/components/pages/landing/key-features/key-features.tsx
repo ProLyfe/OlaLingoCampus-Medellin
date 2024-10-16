@@ -21,7 +21,6 @@ const KeyFeatures = () => {
                 src={item.imagesrc}
                 width={400}
                 height={400}
-                overflow="hidden"
                 alt="check icon"
               />
               <h5 className='text-h mb-[9px] text-[22px] font-semibold text-center'>{ item.title }</h5>

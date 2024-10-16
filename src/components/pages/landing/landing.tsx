@@ -26,7 +26,7 @@ const LandingPage = ({ type = 'student' }: LandingPageProps) => {
       </div> */}
       <KeyFeatures />
       {/* { type === 'student' && <Subscriptions /> } */}
-      {/* <HowItWorks /> */}
+      <HowItWorks />
       <LanguageJourney />
       {/* <Testimonials /> */}
       {/* <ContactUs /> */}

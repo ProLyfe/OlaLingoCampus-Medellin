@@ -14,7 +14,7 @@ const LanguageJourneyBanner = () => {
             { userData.title }
           </h2> */}
           <p className="text-center text-optional">
-            Learn and practice with native speakers for an authentic language learning experience
+            Offer your students an authentic experience by connecting with you to enhance their practical and cultural
           </p>
           {/* <div className="flex flex-col mobile:flex-row justify-center gap-6">
             <CustomButton

@@ -8,12 +8,12 @@ const Footer = () => {
         <div className="flex flex-col mobile:flex-row justify-between items-center gap-6">
           {/* <div className="text-optional text-[28px]">Logo</div> */}
           <nav className="flex flex-col mobile:flex-row gap-6 mobile:gap-9 items-center">
-            <Link className="text-optional font-medium text-lg" href={"/student"}>
+            {/* <Link className="text-optional font-medium text-lg" href={"/student"}>
               For students
             </Link>
             <Link className="text-optional  font-medium text-lg" href={"/teacher"}>
               For teacher
-            </Link>
+            </Link> */}
             {/* <Link className="text-optional  font-medium text-lg" href={""}>
               Contacts
             </Link> */}

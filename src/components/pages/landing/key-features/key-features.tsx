@@ -15,12 +15,13 @@ const KeyFeatures = () => {
         <div className='flex justify-center'>
         <div className='flex flex-col mobile:grid grid-rows-2 grid-cols-3 mt-[48px] gap-x-[24px] gap-y-[32px]'>
           { userData.map(item => (
-            <div key={item.title} className='flex flex-col items-center max-w-[364px]'>
+            <div key={item.title} className='flex flex-col items-center max-w-[364px] imagecontainer'>
               <Image
                 className="mb-[20px]"
                 src={item.imagesrc}
                 width={400}
                 height={400}
+                overflow="hidden"
                 alt="check icon"
               />
               <h5 className='text-h mb-[9px] text-[22px] font-semibold text-center'>{ item.title }</h5>

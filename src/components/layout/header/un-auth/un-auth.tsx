@@ -1,6 +1,6 @@
 import CustomButton from "@/components/ui/button/button";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import NavMenubutton from '@/components/layout/header/nav-menu-button/nav-menu-button'
 import MenuDrawer from '@/components/layout/header/menu-drawer/menu-drawer'
 import styles from './un-auth.module.scss';
@@ -16,6 +16,24 @@ const UnAuthHeader = () => {
 
   const [ openBurgerMenu, setOpenBurgerMenu ] = useState(false);
   const [ openPersonMenu, setOpenPersonMenu ] = useState(false);
+
+
+  const [daysLeft, setDaysLeft] = useState(90);
+
+    useEffect(() => {
+      const interval = setInterval(() => {
+        setDaysLeft((prevDays) => {
+          if (prevDays > 0) {
+            return prevDays - 1;
+          } else {
+            clearInterval(interval);
+            return 0;
+          }
+        });
+      }, 86400000); // 1 jour en millisecondes
+
+      return () => clearInterval(interval); // Nettoyage du timer lors de la fin du composant
+    }, []);
 
   return (
     <header className="w-full py-4 bg-white">
@@ -41,11 +59,11 @@ const UnAuthHeader = () => {
 
           {/* <h1 className=" text-[20px]">Logo</h1> */}
           <nav className={`flex items-center gap-x-8 ${styles.top_navigation}`}>
-            <Link className={`${pathname === '/student' ? "text-main underline underline-offset-8" : "text-222"  } font-medium text-[18px]`} href={"/student"}>
+            {/* <Link className={`${pathname === '/student' ? "text-main underline underline-offset-8" : "text-222"  } font-medium text-[18px]`} href={"/student"}>
               For students
-            </Link>
-            <Link className={`${pathname === '/teacher' ? "text-main underline underline-offset-8" : "text-222"  } font-medium text-[18px]`} href={"/teacher"}>
-              For teacher
+            </Link> */}
+            <Link className={`${pathname === '/' ? "text-main underline underline-offset-8" : "text-main underline underline-offset-8"  } font-medium text-[18px]`} href={"/"}>
+              OlaLingo application is coming in {daysLeft} days !
             </Link>
             {/* <Link className=" text-222 font-medium text-[18px]" href={""}>
               Contacts

@@ -63,7 +63,8 @@ const UnAuthHeader = () => {
               For students
             </Link> */}
             <Link className={`${pathname === '/' ? "text-main underline underline-offset-8" : "text-main underline underline-offset-8"  } font-medium text-[18px]`} href={"/"}>
-              OlaLingo application is coming in {daysLeft} days !
+              {pathname === '/' ? `OlaLingo application is coming in ${daysLeft} days` : `La aplicación de OlaLingo llegará en ${daysLeft} días`}
+              
             </Link>
             {/* <Link className=" text-222 font-medium text-[18px]" href={""}>
               Contacts

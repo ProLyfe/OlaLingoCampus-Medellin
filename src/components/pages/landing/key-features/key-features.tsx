@@ -2,16 +2,17 @@ import SectionTitle from '../section-title/section-title'
 import Image from 'next/image'
 import { keyFeaturesData } from './key-features-data'
 import { useLandingContext } from '../landing-context';
-
+import { usePathname } from 'next/navigation';
 
 const KeyFeatures = () => {
   const type = useLandingContext()
   const userData = keyFeaturesData[type];
+  const pathname = usePathname();
 
   return (
     <section className="py-[40px] mobile:py-[120px]">
       <div className="container_big">
-        <SectionTitle>What is Olalingo ?</SectionTitle>
+        <SectionTitle>{pathname === '/' ? "What is OlaLingo ?" : "¿Qué es OlaLingo?"}</SectionTitle>
         <div className='flex justify-center'>
         <div className='flex flex-col mobile:grid grid-rows-2 grid-cols-3 mt-[48px] gap-x-[24px] gap-y-[32px]'>
           { userData.map(item => (

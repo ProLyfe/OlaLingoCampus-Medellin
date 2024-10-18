@@ -12,7 +12,7 @@ const NavMenubutton = ({setIsOpen, children}: NavMenubuttonProps) => {
 
   return (
     <button onClick={toggleMenu} className={styles.nav_menu_button}>
-      { children }
+      {/* { children } */}
     </button>
   )
 }

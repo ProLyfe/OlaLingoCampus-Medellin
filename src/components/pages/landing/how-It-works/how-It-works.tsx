@@ -20,6 +20,9 @@ const HowItWorks = () => {
             "Estamos entusiasmados de comenzar este viaje educativo juntos! Ahora puedes comenzar a enseñar y conectarte con estudiantes de todo el mundo. Ofrecemos un entorno flexible, listo para que inspires a tus estudiantes y desarrolles tu carrera docente. Únete a nosotros y comienza a enseñar hoy mismo."}
               
             </p>
+            <a href="tel:+573233501939" className="contactusmail">
+              +573233501939
+            </a>
             <a href="tel:+573233501939" className="contactuswhat">
               <Image className="ml-[-30px]" src={whatsapp} height={90} alt='logo'/>
             </a>

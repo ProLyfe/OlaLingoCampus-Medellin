@@ -143,3 +143,18 @@ textarea:active {
     object-fit: cover;
   }
 }
+
+.comingsoonmobile {
+  background-color: rgb(122, 64, 242);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  @media (min-width: $mobile) {
+    display: none;
+  }
+  p {
+    text-decoration: underline;
+  }
+}

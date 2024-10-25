@@ -18,6 +18,9 @@ type LandingPageProps = {
 const LandingPage = ({ type = 'student' }: LandingPageProps) => {
   return (
     <LandingContextProvider type={type}>
+      <div className="comingsoonmobile">
+        <p>OlaLingo application is coming in 90 days</p>
+      </div>
       <IntroductionBanner />
       <LanguageJourneyBanner />
       {/* <AboutUs /> */}

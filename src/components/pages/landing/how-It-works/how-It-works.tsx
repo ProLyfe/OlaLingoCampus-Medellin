@@ -13,10 +13,10 @@ const HowItWorks = () => {
   return (
     <section className="bg-white py-[40px] mobile:py-[120px]" id="contactus">
       <div className="container_big">
-  <SectionTitle>{pathname === '/' ? "Contact us" : "Contáctenos"}</SectionTitle>
+  <SectionTitle>{pathname === '/' ? "Contáctenos" : "Contáctenos"}</SectionTitle>
         <div className="contactsection">
             <p className="text-center text-optional contactustext">
-            {pathname === '/' ? "We are excited to begin this educational journey together! You can now start teaching and connect with students from around the world. We offer a flexible environment, ready for you to inspire your students and grow your teaching career. Join us and start teaching today." : 
+            {pathname === '/' ? "Únete a OlaLingo Campus y aumenta tus ingresos. Aprovecha esta oportunidad para hacer crecer tu negocio con nosotros." : 
             "Estamos entusiasmados de comenzar este viaje educativo juntos! Ahora puedes comenzar a enseñar y conectarte con estudiantes de todo el mundo. Ofrecemos un entorno flexible, listo para que inspires a tus estudiantes y desarrolles tu carrera docente. Únete a nosotros y comienza a enseñar hoy mismo."}
               
             </p>

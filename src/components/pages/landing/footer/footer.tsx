@@ -20,18 +20,14 @@ const Footer = () => {
           </nav>
         </div>
         <div className="my-8" style={{borderTop: '1px solid rgba(255, 255, 255, 0.20)'}}></div>
-        {/* <div className={`${styles.footer_copyright} flex flex-col mobile:flex-row justify-between items-center gap-2`}>
-          <div className="text-sm">© 2024. All Rights Reserved.</div>
+        <div className={`${styles.footer_copyright} flex flex-col mobile:flex-row justify-between items-center gap-2`}>
+          <div className="text-sm">© OlaLingoCampus Medellin 2024. All Rights Reserved.</div>
           <div>
             <Link className="text-sm" href={""}>
-              Terms of Service 
-            </Link>
-            <span> | </span>
-            <Link className="text-sm" href={""}>
-              Privacy Policy
+            27 A sur 86, 27 A sur, Cra. 43A #86, Envigado, Antioquia, Colombie
             </Link>
           </div>
-        </div> */}
+        </div>
       </div>
     </footer>
   )

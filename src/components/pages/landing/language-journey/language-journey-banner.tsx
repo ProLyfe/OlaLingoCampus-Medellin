@@ -16,7 +16,7 @@ const LanguageJourneyBanner = () => {
             { userData.title }
           </h2> */}
           <p className="text-center text-optional">
-          {pathname === '/' ? "Offer your students an authentic experience by connecting with you to enhance their practical and cultural" : 
+          {pathname === '/' ? "Ofrece a los estudiantes del mundo una experiencia auténtica conectándolos contigo para mejorar su aprendizaje práctico y cultural" : 
           "Ofrece a tus estudiantes una experiencia auténtica conectándolos contigo para mejorar su aprendizaje práctico y cultural"} 
           </p>
           {/* <div className="flex flex-col mobile:flex-row justify-center gap-6">

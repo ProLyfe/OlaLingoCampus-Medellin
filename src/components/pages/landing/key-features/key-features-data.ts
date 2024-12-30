@@ -33,35 +33,40 @@ export const keyFeaturesData = {
   ],
   student: [
     {
-      title: 'Online Classes with Your Own Live System',
-      content: "Teach online classes with your own live system, designed to offer an interactive and personalized experience. You’ll be able to teach in real-time, fostering dynamic and engaging learning that will keep your students committed and motivated",
-      imagesrc : "/assets/landing/cindy2.jpg",
+      title: 'Propietarios de café',
+      content: "Pueden unirse a nosotros para ofrecer sus espacios como lugares donde impartimos clases de idiomas, creando una experiencia única para sus clientes",
+      imagesrc : "/assets/landing/cafe.jpg",
     },
     {
-      title: 'With our Teacher Tracking and Follow-up System',
-      content: 'You can comprehensively monitor student progress and provide personalized support, ensuring effective and timely interventions for each student',
-      imagesrc : "/assets/landing/dash.png",
+      title: 'Propietario de alojamiento',
+      content: "Pueden unirse a nosotros para ofrecer sus habitaciones en alquiler a estudiantes, creando una experiencia auténtica de inmersión cultural",
+      imagesrc : "/assets/landing/homestay.webp",
     },
     {
-      title: 'E-Learning',
-      content: 'Allows you to offer flexible online access to educational resources and interactive courses, giving students the opportunity to learn at their own pace and convenience',
-      imagesrc : "/assets/landing/snap1.png",
+      title: 'Agencias de actividades',
+      content: "Pueden unirse a nosotros para ofrecer experiencias únicas a nuestros estudiantes y enriquecer su inmersión cultural en Medellín (tours, actividades, hiking...)",
+      imagesrc : "/assets/landing/activity.jpg",
     },
     {
-      title: 'Language Courses and Certifications',
-      content: 'Offer your students specialized language courses and certifications so they can master new languages with your expert guidance, achieving their learning goals from the comfort of their homes',
-      imagesrc : "/assets/landing/certif.png",
+      title: 'Los conductores',
+      content: "Pueden unirse a nosotros para ofrecer transporte a nuestros estudiantes, asegurando traslados cómodos desde el aeropuerto hasta su alojamiento y viceversa",
+      imagesrc : "/assets/landing/uber.jpg",
     },
     {
-      title: 'Invite your students to join the event, earn credits!',
-      content: 'Encourage them to participate in the event and earn valuable credits toward their educational goals',
-      imagesrc : "/assets/landing/4885abcbd874145e13b3c640d0887a76.jpg",
+      title: '¿Otro tipo de colaboración?',
+      content: "Estamos abiertos a cualquier propuesta. ¡Cuéntanos tu idea!",
+      imagesrc : "/assets/landing/zz.jpeg",
     },
-    {
-      title: 'Multi-Device Acccess',
-      content: 'Offer your students seamless learning with multi-device access, allowing them to study anytime, anywhere, on any device',
-      imagesrc : "/assets/landing/phone.jpg",
-    },
+    // {
+    //   title: 'Invite your students to join the event, earn credits!',
+    //   content: 'Encourage them to participate in the event and earn valuable credits toward their educational goals',
+    //   imagesrc : "/assets/landing/4885abcbd874145e13b3c640d0887a76.jpg",
+    // },
+    // {
+    //   title: 'Multi-Device Acccess',
+    //   content: 'Offer your students seamless learning with multi-device access, allowing them to study anytime, anywhere, on any device',
+    //   imagesrc : "/assets/landing/phone.jpg",
+    // },
   ],
 }
 

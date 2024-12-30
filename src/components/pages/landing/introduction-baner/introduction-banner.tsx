@@ -23,7 +23,7 @@ const IntroductionBanner = () => {
                 btnSize="l"
                 bgColor="main"
                 >
-                {pathname === '/' ? "Join us" : "Ver más"}
+                {pathname === '/' ? "Ver más" : "Ver más"}
               </CustomButton>
             </Link>
             {/* <CustomButton

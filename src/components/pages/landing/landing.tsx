@@ -19,7 +19,7 @@ const LandingPage = ({ type = 'student' }: LandingPageProps) => {
   return (
     <LandingContextProvider type={type}>
       <div className="comingsoonmobile">
-        <p>OlaLingo application is coming in 90 days</p>
+        <p>OlaLingo Campus Medellin</p>
       </div>
       <IntroductionBanner />
       <LanguageJourneyBanner />

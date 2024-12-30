@@ -4,7 +4,7 @@ export const bannerData = {
     content: "Únete a nuestra innovadora plataforma y transforma la manera en que enseñas idiomas. Conéctate con estudiantes de todo el mundo, accede a recursos de primer nivel y deja una huella duradera en su proceso de aprendizaje",
   },
   student: {
-    title: 'Empower Students, Enrich Lives',
-    content: 'Join our innovative platform and transform the way you teach languages. Engage with students worldwide, access top-tier resources, and make a lasting impact on their learning journey.'
+    title: 'Experiencia Inmersiva en Medellín',
+    content: "Únete a nosotros para brindar a los estudiantes un entorno único de aprendizaje de idiomas, combinando cultura, aventura e inmersión local en Medellín."
   }
 }

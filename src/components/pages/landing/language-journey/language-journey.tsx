@@ -20,8 +20,8 @@ const LanguageJourney = () => {
           </p>
           <div className="flex flex-col mobile:flex-row justify-center gap-6">
             {pathname === '/' ? 
-         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdoY58VNG5NNcxOZHm4sGRsGQ3GaXVgUQqQUcF0jFZTdeNlRQ/viewform?embedded=true" width="100%" height="1300">Chargement…</iframe>
-        : <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhFoD6YYzl09rh_WN3_FBKWpXkb7bhXpk0Xr1oVlghpfs-1A/viewform?embedded=true" width="100%" height="1300">Chargement…</iframe>         
+         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScZxgM2iGKFwZ647-5gDftJA7WNJ_7CxoMg2Yp1y-gkSrXWig/viewform?embedded=true" width="100%" height="1300">Chargement…</iframe>
+        : <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScZxgM2iGKFwZ647-5gDftJA7WNJ_7CxoMg2Yp1y-gkSrXWig/viewform?embedded=true" width="100%" height="1300">Chargement…</iframe>         
         } </div>
         </div>        
       </div>

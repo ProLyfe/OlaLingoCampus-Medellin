@@ -43,6 +43,11 @@ export const keyFeaturesData = {
       imagesrc : "/assets/landing/homestay.webp",
     },
     {
+      title: 'Hoteles',
+      content: "Los hoteles pueden unirse a nosotros para ofrecer sus habitaciones en alquiler a estudiantes, brindando una experiencia única de inmersión cultural con todas las comodidades",
+      imagesrc : "/assets/landing/hotel.jpg",
+    },
+    {
       title: 'Agencias de actividades',
       content: "Pueden unirse a nosotros para ofrecer experiencias únicas a nuestros estudiantes y enriquecer su inmersión cultural en Medellín (tours, actividades, hiking...)",
       imagesrc : "/assets/landing/activity.jpg",
@@ -51,6 +56,21 @@ export const keyFeaturesData = {
       title: 'Los conductores',
       content: "Pueden unirse a nosotros para ofrecer transporte a nuestros estudiantes, asegurando traslados cómodos desde el aeropuerto hasta su alojamiento y viceversa",
       imagesrc : "/assets/landing/uber.jpg",
+    },
+    {
+      title: 'Guías turísticos',
+      content: "Los guías turísticos pueden unirse a nosotros para ofrecer sus servicios a los estudiantes, creando una experiencia auténtica de inmersión cultural mientras exploran la ciudad",
+      imagesrc : "/assets/landing/guide.jpg",
+    },
+    {
+      title: 'Academias de baile',
+      content: "Las academias de baile pueden unirse a nosotros para ofrecer clases a los estudiantes, brindando una experiencia auténtica de inmersión cultural a través de la música y el movimiento",
+      imagesrc : "/assets/landing/dance.jpg",
+    },
+    {
+      title: 'Las empresas aliadas',
+      content: "Las empresas aliadas pueden unirse a nosotros para ofrecer sus servicios a los estudiantes, creando una experiencia auténtica de inmersión cultural y facilitando su integración en la comunidad",
+      imagesrc : "/assets/landing/corportate.jpg",
     },
     {
       title: '¿Otro tipo de colaboración?',
